@@ -1,0 +1,599 @@
+% listxcolor.tex
+% 
+% This file generates a table of the named colors available in the LaTex package xcolor.
+% Created: 2011-06-09
+%
+\documentclass[12pt, letterpaper]{article}
+\usepackage[table,showerrors,dvipsnames,svgnames,x11names]{xcolor}
+\usepackage{multicol}
+\pagestyle{empty} % no page numbers
+\usepackage{geometry} 
+\geometry{letterpaper, textwidth=7.5in, textheight=9.5in, marginparsep=5pt, marginparwidth=.5in}
+\setlength{\parindent}{0pt}
+
+\newcommand{\0}[1]{\fcolorbox{gray}{#1}{\phantom{test}}\quad\texttt{#1}\strut\\}
+\newcommand{\1}[1]{\fcolorbox{gray}{#1}{\phantom{test}}\quad\texttt{#1}\strut\\}
+
+ \begin{document}
+ Below are tables with the named colors from the \texttt{xcolor} package. This will work with pdf\LaTeX.
+ \begin{center}\Large Base Colors
+ \end{center}
+ 
+ \begin{multicols}{3}
+ \0{black}
+ \0{blue}
+ \0{brown}
+ \0{cyan}
+ \0{darkgray}
+ \0{gray}
+ \0{green}
+ \0{lightgray}
+ \0{lime}
+ \0{magenta}
+ \0{olive}
+ \0{orange}
+ \0{pink}
+ \0{purple}
+ \0{red}
+ \0{teal}
+ \0{violet}
+ \0{white}
+ \0{yellow}
+ \end{multicols}
+
+ \begin{center}\Large Colors with \texttt{dvipsnames} option
+ \end{center}
+
+ \begin{multicols}{3}
+ \0{Apricot}
+ \0{Aquamarine}
+ \0{Bittersweet}
+ \0{Black}
+ \0{Blue}
+ \0{BlueGreen}
+ \0{BlueViolet}
+ \0{BrickRed}
+ \0{Brown}
+ \0{BurntOrange}
+ \0{CadetBlue}
+ \0{CarnationPink}
+ \0{Cerulean}
+ \0{CornflowerBlue}
+ \0{Cyan}
+ \0{Dandelion}
+ \0{DarkOrchid}
+ \0{Emerald}
+ \0{ForestGreen}
+ \0{Fuchsia}
+ \0{Goldenrod}
+ \0{Gray}
+ \0{Green}
+ \0{GreenYellow}
+ \0{JungleGreen}
+ \0{Lavender}
+ \0{LimeGreen}
+ \0{Magenta}
+ \0{Mahogany}
+ \0{Maroon}
+ \0{Melon}
+ \0{MidnightBlue}
+ \0{Mulberry}
+ \0{NavyBlue}
+ \0{OliveGreen}
+ \0{Orange}
+ \0{OrangeRed}
+ \0{Orchid}
+ \0{Peach}
+ \0{Periwinkle}
+ \0{PineGreen}
+ \0{Plum}
+ \0{ProcessBlue}
+ \0{Purple}
+ \0{RawSienna}
+ \0{Red}
+ \0{RedOrange}
+ \0{RedViolet}
+ \0{Rhodamine}
+ \0{RoyalBlue}
+ \0{RoyalPurple}
+ \0{RubineRed}
+ \0{Salmon}
+ \0{SeaGreen}
+ \0{Sepia}
+ \0{SkyBlue}
+ \0{SpringGreen}
+ \0{Tan}
+ \0{TealBlue}
+ \0{Thistle}
+ \0{Turquoise}
+ \0{Violet}
+ \0{VioletRed}
+ \0{White}
+ \0{WildStrawberry}
+ \0{Yellow}
+ \0{YellowGreen}
+ \0{YellowOrange}
+ \end{multicols}
+
+ \begin{center}\Large Colors with \texttt{svgnames} option
+ \end{center}
+ 
+\begin{multicols}{3}
+\1{AliceBlue}
+\1{AntiqueWhite}
+\1{Aqua}
+\1{Aquamarine}
+\1{Azure}
+\1{Beige}
+\1{Bisque}
+\1{Black}
+\1{BlanchedAlmond}
+\1{Blue}
+\1{BlueViolet}
+\1{Brown}
+\1{BurlyWood}
+\1{CadetBlue}
+\1{Chartreuse}
+\1{Chocolate}
+\1{Coral}
+\1{CornflowerBlue}
+\1{Cornsilk}
+\1{Crimson}
+\1{Cyan}
+\1{DarkBlue}
+\1{DarkCyan}
+\1{DarkGoldenrod}
+\1{DarkGray}
+\1{DarkGreen}
+\1{DarkGrey}
+\1{DarkKhaki}
+\1{DarkMagenta}
+\1{DarkOliveGreen}
+\1{DarkOrange}
+\1{DarkOrchid}
+\1{DarkRed}
+\1{DarkSalmon}
+\1{DarkSeaGreen}
+\1{DarkSlateBlue}
+\1{DarkSlateGray}
+\1{DarkSlateGrey}
+\1{DarkTurquoise}
+\1{DarkViolet}
+\1{DeepPink}
+\1{DeepSkyBlue}
+\1{DimGray}
+\1{DimGrey}
+\1{DodgerBlue}
+\1{FireBrick}
+\1{FloralWhite}
+\1{ForestGreen}
+\1{Fuchsia}
+\1{Gainsboro}
+\1{GhostWhite}
+\1{Gold}
+\1{Goldenrod}
+\1{Gray}
+\1{Green}
+\1{GreenYellow}
+\1{Grey}
+\1{Honeydew}
+\1{HotPink}
+\1{IndianRed}
+\1{Indigo}
+\1{Ivory}
+\1{Khaki}
+\1{Lavender}
+\1{LavenderBlush}
+\1{LawnGreen}
+\1{LemonChiffon}
+\1{LightBlue}
+\1{LightCoral}
+\1{LightCyan}
+\1{LightGoldenrod}
+\1{LightGoldenrodYellow}
+\1{LightGray}
+\1{LightGreen}
+\1{LightGrey}
+\1{LightPink}
+\1{LightSalmon}
+\1{LightSeaGreen}
+\1{LightSkyBlue}
+\1{LightSlateBlue}
+\1{LightSlateGray}
+\1{LightSlateGrey}
+\1{LightSteelBlue}
+\1{LightYellow}
+\1{Lime}
+\1{LimeGreen}
+\1{Linen}
+\1{Magenta}
+\1{Maroon}
+\1{MediumAquamarine}
+\1{MediumBlue}
+\1{MediumOrchid}
+\1{MediumPurple}
+\1{MediumSeaGreen}
+\1{MediumSlateBlue}
+\1{MediumSpringGreen}
+\1{MediumTurquoise}
+\1{MediumVioletRed}
+\1{MidnightBlue}
+\1{MintCream}
+\1{MistyRose}
+\1{Moccasin}
+\1{NavajoWhite}
+\1{Navy}
+\1{NavyBlue}
+\1{OldLace}
+\1{Olive}
+\1{OliveDrab}
+\1{Orange}
+\1{OrangeRed}
+\1{Orchid}
+\1{PaleGoldenrod}
+\1{PaleGreen}
+\1{PaleTurquoise}
+\1{PaleVioletRed}
+\1{PapayaWhip}
+\1{PeachPuff}
+\1{Peru}
+\1{Pink}
+\1{Plum}
+\1{PowderBlue}
+\1{Purple}
+\1{Red}
+\1{RosyBrown}
+\1{RoyalBlue}
+\1{SaddleBrown}
+\1{Salmon}
+\1{SandyBrown}
+\1{SeaGreen}
+\1{Seashell}
+\1{Sienna}
+\1{Silver}
+\1{SkyBlue}
+\1{SlateBlue}
+\1{SlateGray}
+\1{SlateGrey}
+\1{Snow}
+\1{SpringGreen}
+\1{SteelBlue}
+\1{Tan}
+\1{Teal}
+\1{Thistle}
+\1{Tomato}
+\1{Turquoise}
+\1{Violet}
+\1{VioletRed}
+\1{Wheat}
+\1{White}
+\1{WhiteSmoke}
+\1{Yellow}
+\1{YellowGreen}
+
+\end{multicols}
+
+\begin{center}\Large Colors with \texttt{x11names} option
+\end{center}
+
+\begin{multicols}{3}
+ \1{AntiqueWhite1}
+\1{AntiqueWhite2}
+\1{AntiqueWhite3}
+\1{AntiqueWhite4}
+\1{Aquamarine1}
+\1{Aquamarine2}
+\1{Aquamarine3}
+\1{Aquamarine4}
+\1{Azure1}
+\1{Azure2}
+\1{Azure3}
+\1{Azure4}
+\1{Bisque1}
+\1{Bisque2}
+\1{Bisque3}
+\1{Bisque4}
+\1{Blue1}
+\1{Blue2}
+\1{Blue3}
+\1{Blue4}
+\1{Brown1}
+\1{Brown2}
+\1{Brown3}
+\1{Brown4}
+\1{Burlywood1}
+\1{Burlywood2}
+\1{Burlywood3}
+\1{Burlywood4}
+\1{CadetBlue1}
+\1{CadetBlue2}
+\1{CadetBlue3}
+\1{CadetBlue4}
+\1{Chartreuse1}
+\1{Chartreuse2}
+\1{Chartreuse3}
+\1{Chartreuse4}
+\1{Chocolate1}
+\1{Chocolate2}
+\1{Chocolate3}
+\1{Chocolate4}
+\1{Coral1}
+\1{Coral2}
+\1{Coral3}
+\1{Coral4}
+\1{Cornsilk1}
+\1{Cornsilk2}
+\1{Cornsilk3}
+\1{Cornsilk4}
+\1{Cyan1}
+\1{Cyan2}
+\1{Cyan3}
+\1{Cyan4}
+\1{DarkGoldenrod1}
+\1{DarkGoldenrod2}
+\1{DarkGoldenrod3}
+\1{DarkGoldenrod4}
+\1{DarkOliveGreen1}
+\1{DarkOliveGreen2}
+\1{DarkOliveGreen3}
+\1{DarkOliveGreen4}
+\1{DarkOrange1}
+\1{DarkOrange2}
+\1{DarkOrange3}
+\1{DarkOrange4}
+\1{DarkOrchid1}
+\1{DarkOrchid2}
+\1{DarkOrchid3}
+\1{DarkOrchid4}
+\1{DarkSeaGreen1}
+\1{DarkSeaGreen2}
+\1{DarkSeaGreen3}
+\1{DarkSeaGreen4}
+\1{DarkSlateGray1}
+\1{DarkSlateGray2}
+\1{DarkSlateGray3}
+\1{DarkSlateGray4}
+\1{DeepPink1}
+\1{DeepPink2}
+\1{DeepPink3}
+\1{DeepPink4}
+\1{DeepSkyBlue1}
+\1{DeepSkyBlue2}
+\1{DeepSkyBlue3}
+\1{DeepSkyBlue4}
+\1{DodgerBlue1}
+\1{DodgerBlue2}
+\1{DodgerBlue3}
+\1{DodgerBlue4}
+\1{Firebrick1}
+\1{Firebrick2}
+\1{Firebrick3}
+\1{Firebrick4}
+\1{Gold1}
+\1{Gold2}
+\1{Gold3}
+\1{Gold4}
+\1{Goldenrod1}
+\1{Goldenrod2}
+\1{Goldenrod3}
+\1{Goldenrod4}
+\1{Green1}
+\1{Green2}
+\1{Green3}
+\1{Green4}
+\1{Honeydew1}
+\1{Honeydew2}
+\1{Honeydew3}
+\1{Honeydew4}
+\1{HotPink1}
+\1{HotPink2}
+\1{HotPink3}
+\1{HotPink4}
+\1{IndianRed1}
+\1{IndianRed2}
+\1{IndianRed3}
+\1{IndianRed4}
+\1{Ivory1}
+\1{Ivory2}
+\1{Ivory3}
+\1{Ivory4}
+\1{Khaki1}
+\1{Khaki2}
+\1{Khaki3}
+\1{Khaki4}
+\1{LavenderBlush1}
+\1{LavenderBlush2}
+\1{LavenderBlush3}
+\1{LavenderBlush4}
+\1{LemonChiffon1}
+\1{LemonChiffon2}
+\1{LemonChiffon3}
+\1{LemonChiffon4}
+\1{LightBlue1}
+\1{LightBlue2}
+\1{LightBlue3}
+\1{LightBlue4}
+\1{LightCyan1}
+\1{LightCyan2}
+\1{LightCyan3}
+\1{LightCyan4}
+\1{LightGoldenrod1}
+\1{LightGoldenrod2}
+\1{LightGoldenrod3}
+\1{LightGoldenrod4}
+\1{LightPink1}
+\1{LightPink2}
+\1{LightPink3}
+\1{LightPink4}
+\1{LightSalmon1}
+\1{LightSalmon2}
+\1{LightSalmon3}
+\1{LightSalmon4}
+\1{LightSkyBlue1}
+\1{LightSkyBlue2}
+\1{LightSkyBlue3}
+\1{LightSkyBlue4}
+\1{LightSteelBlue1}
+\1{LightSteelBlue2}
+\1{LightSteelBlue3}
+\1{LightSteelBlue4}
+\1{LightYellow1}
+\1{LightYellow2}
+\1{LightYellow3}
+\1{LightYellow4}
+\1{Magenta1}
+\1{Magenta2}
+\1{Magenta3}
+\1{Magenta4}
+\1{Maroon1}
+\1{Maroon2}
+\1{Maroon3}
+\1{Maroon4}
+\1{MediumOrchid1}
+\1{MediumOrchid2}
+\1{MediumOrchid3}
+\1{MediumOrchid4}
+\1{MediumPurple1}
+\1{MediumPurple2}
+\1{MediumPurple3}
+\1{MediumPurple4}
+\1{MistyRose1}
+\1{MistyRose2}
+\1{MistyRose3}
+\1{MistyRose4}
+\1{NavajoWhite1}
+\1{NavajoWhite2}
+\1{NavajoWhite3}
+\1{NavajoWhite4}
+\1{OliveDrab1}
+\1{OliveDrab2}
+\1{OliveDrab3}
+\1{OliveDrab4}
+\1{Orange1}
+\1{Orange2}
+\1{Orange3}
+\1{Orange4}
+\1{OrangeRed1}
+\1{OrangeRed2}
+\1{OrangeRed3}
+\1{OrangeRed4}
+\1{Orchid1}
+\1{Orchid2}
+\1{Orchid3}
+\1{Orchid4}
+\1{PaleGreen1}
+\1{PaleGreen2}
+\1{PaleGreen3}
+\1{PaleGreen4}
+\1{PaleTurquoise1}
+\1{PaleTurquoise2}
+\1{PaleTurquoise3}
+\1{PaleTurquoise4}
+\1{PaleVioletRed1}
+\1{PaleVioletRed2}
+\1{PaleVioletRed3}
+\1{PaleVioletRed4}
+\1{PeachPuff1}
+\1{PeachPuff2}
+\1{PeachPuff3}
+\1{PeachPuff4}
+\1{Pink1}
+\1{Pink2}
+\1{Pink3}
+\1{Pink4}
+\1{Plum1}
+\1{Plum2}
+\1{Plum3}
+\1{Plum4}
+\1{Purple1}
+\1{Purple2}
+\1{Purple3}
+\1{Purple4}
+\1{Red1}
+\1{Red2}
+\1{Red3}
+\1{Red4}
+\1{RosyBrown1}
+\1{RosyBrown2}
+\1{RosyBrown3}
+\1{RosyBrown4}
+\1{RoyalBlue1}
+\1{RoyalBlue2}
+\1{RoyalBlue3}
+\1{RoyalBlue4}
+\1{Salmon1}
+\1{Salmon2}
+\1{Salmon3}
+\1{Salmon4}
+\1{SeaGreen1}
+\1{SeaGreen2}
+\1{SeaGreen3}
+\1{SeaGreen4}
+\1{Seashell1}
+\1{Seashell2}
+\1{Seashell3}
+\1{Seashell4}
+\1{Sienna1}
+\1{Sienna2}
+\1{Sienna3}
+\1{Sienna4}
+\1{SkyBlue1}
+\1{SkyBlue2}
+\1{SkyBlue3}
+\1{SkyBlue4}
+\1{SlateBlue1}
+\1{SlateBlue2}
+\1{SlateBlue3}
+\1{SlateBlue4}
+\1{SlateGray1}
+\1{SlateGray2}
+\1{SlateGray3}
+\1{SlateGray4}
+\1{Snow1}
+\1{Snow2}
+\1{Snow3}
+\1{Snow4}
+\1{SpringGreen1}
+\1{SpringGreen2}
+\1{SpringGreen3}
+\1{SpringGreen4}
+\1{SteelBlue1}
+\1{SteelBlue2}
+\1{SteelBlue3}
+\1{SteelBlue4}
+\1{Tan1}
+\1{Tan2}
+\1{Tan3}
+\1{Tan4}
+\1{Thistle1}
+\1{Thistle2}
+\1{Thistle3}
+\1{Thistle4}
+\1{Tomato1}
+\1{Tomato2}
+\1{Tomato3}
+\1{Tomato4}
+\1{Turquoise1}
+\1{Turquoise2}
+\1{Turquoise3}
+\1{Turquoise4}
+\1{VioletRed1}
+\1{VioletRed2}
+\1{VioletRed3}
+\1{VioletRed4}
+\1{Wheat1}
+\1{Wheat2}
+\1{Wheat3}
+\1{Wheat4}
+\1{Yellow1}
+\1{Yellow2}
+\1{Yellow3}
+\1{Yellow4}
+\1{Gray0}
+\1{Green0}
+\1{Grey0}
+\1{Maroon0}
+\1{Purple0}
+\end{multicols}
+ 
+\end{document}
